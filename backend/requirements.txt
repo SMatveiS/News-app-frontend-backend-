@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy
+psycopg2-binary
+alembic
+pydantic
+pydantic-settings
+fastapi_sso
+argon2-cffi
+python-multipart
+python-jose[cryptography]
+PyJWT
+passlib
+redis>=5.0.0
+celery>=5.3.0
+celery[redis]

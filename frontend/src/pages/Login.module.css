@@ -1,0 +1,5 @@
+.container { display: flex; justify-content: center; margin-top: 50px; }
+.form { display: flex; flex-direction: column; gap: 15px; width: 300px; padding: 20px; background: white; border-radius: 8px; border: 1px solid #ddd; }
+.form input { padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+.form button { padding: 10px; background: #007bff; color: white; border: none; cursor: pointer; }
+.error { color: red; font-size: 0.9em; }

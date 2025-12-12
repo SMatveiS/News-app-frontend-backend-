@@ -1,0 +1,61 @@
+.nav {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.container {
+    max-width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.createBtn {
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+}
+.createBtn:hover {
+    background: #45a049;
+}
+
+.logoutBtn {
+    background: #f44336;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+}
+.logoutBtn:hover {
+    background: #d32f2f;
+}
+
+.loginLink {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}

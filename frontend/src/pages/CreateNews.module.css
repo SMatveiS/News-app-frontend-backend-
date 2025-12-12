@@ -1,0 +1,5 @@
+.container { padding: 20px; max-width: 600px; margin: 0 auto; }
+.form { display: flex; flex-direction: column; gap: 15px; }
+.form input, .form textarea { padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
+.form textarea { height: 150px; }
+.form button { padding: 10px; background: #4CAF50; color: white; border: none; cursor: pointer; }
